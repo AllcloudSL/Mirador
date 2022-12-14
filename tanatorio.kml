@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>tanatorio.kml</name>
+	<open>1</open>
+	<Schema name="tanatorio" id="tanatorio">
+		<SimpleField type="float" name="fase"></SimpleField>
+		<SimpleField type="string" name="clave"></SimpleField>
+		<SimpleField type="string" name="prov"></SimpleField>
+		<SimpleField type="string" name="mun"></SimpleField>
+		<SimpleField type="string" name="ent"></SimpleField>
+		<SimpleField type="string" name="poblamient"></SimpleField>
+		<SimpleField type="string" name="orden_tana"></SimpleField>
+		<SimpleField type="string" name="Foto"></SimpleField>
+	</Schema>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ff00</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>tanatorio</name>
+		<open>1</open>
+		<Placemark>
+			<description>2022|TA|09|018|0002|01|002,0</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#tanatorio">
+					<SimpleData name="fase">2022</SimpleData>
+					<SimpleData name="clave">TA</SimpleData>
+					<SimpleData name="prov">09</SimpleData>
+					<SimpleData name="mun">018</SimpleData>
+					<SimpleData name="ent">0002</SimpleData>
+					<SimpleData name="poblamient">01</SimpleData>
+					<SimpleData name="orden_tana">002</SimpleData>
+					<SimpleData name="Foto">DCIM/JPEG_20221026162108735.jpg</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.701714173462,41.6810768712762,0 -3.70134615444238,41.6809001270137,0 -3.70175531084738,41.680468051698,0 -3.70210741227054,41.6806448919095,0 -3.701714173462,41.6810768712762,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<description>2022|TA|09|321|0001|01|001,0</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#tanatorio">
+					<SimpleData name="fase">2022</SimpleData>
+					<SimpleData name="clave">TA</SimpleData>
+					<SimpleData name="prov">09</SimpleData>
+					<SimpleData name="mun">321</SimpleData>
+					<SimpleData name="ent">0001</SimpleData>
+					<SimpleData name="poblamient">01</SimpleData>
+					<SimpleData name="orden_tana">001</SimpleData>
+					<SimpleData name="Foto">DCIM/JPEG_20221007081812547.jpg</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.935100175167991,41.6919589597326,0 -3.93512412960906,41.6920906721054,0 -3.93505061508582,41.6922054993841,0 -3.93500010433043,41.6921900378087,0 -3.93494784654635,41.6922676759987,0 -3.9348071938846,41.6922086436921,0 -3.9348695391036,41.6919875502653,0 -3.93496336604037,41.6919735294524,0 -3.935100175167991,41.6919589597326,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<description>2022|TA|09|246|0001|01|001,0</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#tanatorio">
+					<SimpleData name="fase">2022</SimpleData>
+					<SimpleData name="clave">TA</SimpleData>
+					<SimpleData name="prov">09</SimpleData>
+					<SimpleData name="mun">246</SimpleData>
+					<SimpleData name="ent">0001</SimpleData>
+					<SimpleData name="poblamient">01</SimpleData>
+					<SimpleData name="orden_tana">001</SimpleData>
+					<SimpleData name="Foto">DCIM/JPEG_20221015104937242.jpg</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.1310611749414,41.9591880760112,0 -3.130711404816851,41.9590014433418,0 -3.130711404816851,41.9590014433418,0 -3.13081208838435,41.9589339728584,0 -3.1311582455852,41.9591142439377,0 -3.13106680091573,41.959190942695,0 -3.1310611749414,41.9591880760112,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<description>2022|TA|09|289|0001|01|001,0</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#tanatorio">
+					<SimpleData name="fase">2022</SimpleData>
+					<SimpleData name="clave">TA</SimpleData>
+					<SimpleData name="prov">09</SimpleData>
+					<SimpleData name="mun">289</SimpleData>
+					<SimpleData name="ent">0001</SimpleData>
+					<SimpleData name="poblamient">01</SimpleData>
+					<SimpleData name="orden_tana">001</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.03832860529064,41.9824614293229,0 -3.03815417911865,41.9823296469153,0 -3.03834735682895,41.982190408483,0 -3.03854313585993,41.9823196168758,0 -3.03842768923468,41.9824025703549,0 -3.03836853389382,41.9824452922819,0 -3.03833333437597,41.9824649949465,0 -3.03833333437597,41.9824649949465,0 -3.03832860529064,41.9824614293229,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<description>2022|TA|09|289|0001|01|002,0</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#tanatorio">
+					<SimpleData name="fase">2022</SimpleData>
+					<SimpleData name="clave">TA</SimpleData>
+					<SimpleData name="prov">09</SimpleData>
+					<SimpleData name="mun">289</SimpleData>
+					<SimpleData name="ent">0001</SimpleData>
+					<SimpleData name="poblamient">01</SimpleData>
+					<SimpleData name="orden_tana">002</SimpleData>
+					<SimpleData name="Foto">DCIM/JPEG_20221015083743456.jpg</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.03835774176571,41.9712009572537,0 -3.03790249303792,41.9710305197319,0 -3.03801873399256,41.9708675081401,0 -3.03846990442031,41.9710455621405,0 -3.03835774176571,41.9712009572537,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<description>2022|TA|09|330|0004|01|001,0</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#tanatorio">
+					<SimpleData name="fase">2022</SimpleData>
+					<SimpleData name="clave">TA</SimpleData>
+					<SimpleData name="prov">09</SimpleData>
+					<SimpleData name="mun">330</SimpleData>
+					<SimpleData name="ent">0004</SimpleData>
+					<SimpleData name="poblamient">01</SimpleData>
+					<SimpleData name="orden_tana">001</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.29850582858934,42.0221468220856,0 -3.2984366358565,42.0221661356523,0 -3.29848846610555,42.0222750626772,0 -3.29818857785224,42.0223475932947,0 -3.29823783733691,42.0224555704254,0 -3.29809688050645,42.0224932471878,0 -3.29805019618347,42.0223871766754,0 -3.2979797111083,42.022404579957,0 -3.29793961626147,42.0223358029043,0 -3.29801777251148,42.0223126396364,0 -3.29793475343096,42.0221186486223,0 -3.29811799945812,42.0220703387256,0 -3.29816206401592,42.0221649358326,0 -3.29847859468391,42.0220847085489,0 -3.29850582858934,42.0221468220856,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<description>2022|TA|09|194|0002|01|001,0</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#tanatorio">
+					<SimpleData name="fase">2022</SimpleData>
+					<SimpleData name="clave">TA</SimpleData>
+					<SimpleData name="prov">09</SimpleData>
+					<SimpleData name="mun">194</SimpleData>
+					<SimpleData name="ent">0002</SimpleData>
+					<SimpleData name="poblamient">01</SimpleData>
+					<SimpleData name="orden_tana">001</SimpleData>
+					<SimpleData name="Foto">DCIM/tanatorio_20220705121725017.jpg</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.76544947975704,42.024767855773,0 -3.76537098361576,42.0248558841486,0 -3.76505727073905,42.0247052824861,0 -3.7651333621504,42.0246137466646,0 -3.76544947975704,42.024767855773,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<description>2022|TA|09|350|0001|01|001,0</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#tanatorio">
+					<SimpleData name="fase">2022</SimpleData>
+					<SimpleData name="clave">TA</SimpleData>
+					<SimpleData name="prov">09</SimpleData>
+					<SimpleData name="mun">350</SimpleData>
+					<SimpleData name="ent">0001</SimpleData>
+					<SimpleData name="poblamient">01</SimpleData>
+					<SimpleData name="orden_tana">001</SimpleData>
+					<SimpleData name="Foto">DCIM/tanatorio_20220711095530338.jpg</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.97482425579274,42.1344924414436,0 -3.97491124811019,42.1344710035844,0 -3.97498789375437,42.1345804794306,0 -3.97506210958214,42.1346299339574,0 -3.97490937534551,42.1346499901805,0 -3.97482425579274,42.1344924414436,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<description>2022|TA|09|410|0057|01|001,0</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#tanatorio">
+					<SimpleData name="fase">2022</SimpleData>
+					<SimpleData name="clave">TA</SimpleData>
+					<SimpleData name="prov">09</SimpleData>
+					<SimpleData name="mun">410</SimpleData>
+					<SimpleData name="ent">0057</SimpleData>
+					<SimpleData name="poblamient">01</SimpleData>
+					<SimpleData name="orden_tana">001</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.280020620222,43.1021007916485,0 -3.28020189513605,43.1022922978171,0 -3.2798488142249,43.1024493877251,0 -3.27968062712093,43.1022506385907,0 -3.280020620222,43.1021007916485,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<description>2022|TA|09|219|0011|01|001,0</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#tanatorio">
+					<SimpleData name="fase">2022</SimpleData>
+					<SimpleData name="clave">TA</SimpleData>
+					<SimpleData name="prov">09</SimpleData>
+					<SimpleData name="mun">219</SimpleData>
+					<SimpleData name="ent">0011</SimpleData>
+					<SimpleData name="poblamient">01</SimpleData>
+					<SimpleData name="orden_tana">001</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-2.96978771565238,42.6777452136683,0 -2.96916243322242,42.6781825778995,0 -2.96771921527773,42.6776524829552,0 -2.96783092027311,42.6775559663857,0 -2.96796010706995,42.6774639909928,0 -2.96817704272513,42.6772602672936,0 -2.96832419899915,42.6771557494385,0 -2.96898306935137,42.6774351953099,0 -2.96978771565238,42.6777452136683,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<description>2022|TA|09|434|0001|01|001,0</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#tanatorio">
+					<SimpleData name="fase">2022</SimpleData>
+					<SimpleData name="clave">TA</SimpleData>
+					<SimpleData name="prov">09</SimpleData>
+					<SimpleData name="mun">434</SimpleData>
+					<SimpleData name="ent">0001</SimpleData>
+					<SimpleData name="poblamient">01</SimpleData>
+					<SimpleData name="orden_tana">001</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.74852198441375,42.3027332379922,0 -3.748418041097941,42.3027680948243,0 -3.74836633898749,42.3027008168888,0 -3.74848284904007,42.3026685702355,0 -3.74852198441375,42.3027332379922,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<description>2022|TA|09|209|0011|01|001,0</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#tanatorio">
+					<SimpleData name="fase">2022</SimpleData>
+					<SimpleData name="clave">TA</SimpleData>
+					<SimpleData name="prov">09</SimpleData>
+					<SimpleData name="mun">209</SimpleData>
+					<SimpleData name="ent">0011</SimpleData>
+					<SimpleData name="poblamient">01</SimpleData>
+					<SimpleData name="orden_tana">001</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.489651166463109,42.935070230437,0 -3.48970112282837,42.9351732275158,0 -3.489480398100961,42.9352196747294,0 -3.48944973047155,42.9351352768366,0 -3.48906101624993,42.9352179267929,0 -3.4891077181295,42.9353049099681,0 -3.488869538515829,42.9353575971961,0 -3.48881601897558,42.9352527637768,0 -3.489651166463109,42.935070230437,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<description>2022|TA|09|427|0022|01|001,0</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#tanatorio">
+					<SimpleData name="fase">2022</SimpleData>
+					<SimpleData name="clave">TA</SimpleData>
+					<SimpleData name="prov">09</SimpleData>
+					<SimpleData name="mun">427</SimpleData>
+					<SimpleData name="ent">0022</SimpleData>
+					<SimpleData name="poblamient">01</SimpleData>
+					<SimpleData name="orden_tana">001</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.99995656723575,42.5197405565729,0 -4.00005802746564,42.5199165280808,0 -4.00003101785232,42.51992556176,0 -4.00003876613982,42.5199406550189,0 -3.999939770261729,42.519966808136,0 -3.99983324526497,42.5197876586959,0 -3.99995656723575,42.5197405565729,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<description>2022|TA|09|905|0013|01|001,0</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#tanatorio">
+					<SimpleData name="fase">2022</SimpleData>
+					<SimpleData name="clave">TA</SimpleData>
+					<SimpleData name="prov">09</SimpleData>
+					<SimpleData name="mun">905</SimpleData>
+					<SimpleData name="ent">0013</SimpleData>
+					<SimpleData name="poblamient">01</SimpleData>
+					<SimpleData name="orden_tana">001</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.746356477351441,42.7146100704717,0 -3.74635444692161,42.7146506650083,0 -3.74622994056676,42.7146503509388,0 -3.74623358791087,42.7146064762676,0 -3.746356477351441,42.7146100704717,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<description>2022|TA|09|903|0032|01|001,0</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#tanatorio">
+					<SimpleData name="fase">2022</SimpleData>
+					<SimpleData name="clave">TA</SimpleData>
+					<SimpleData name="prov">09</SimpleData>
+					<SimpleData name="mun">903</SimpleData>
+					<SimpleData name="ent">0032</SimpleData>
+					<SimpleData name="poblamient">01</SimpleData>
+					<SimpleData name="orden_tana">001</SimpleData>
+					<SimpleData name="Foto">DCIM/tanatorio_20220829172909378.jpg</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.58043030913668,42.9230667397418,0 -3.58032683416224,42.9232895436592,0 -3.57989448251238,42.9231969118974,0 -3.5799860681653,42.9229569280982,0 -3.58043030913668,42.9230667397418,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<description>2022|TA|09|124|0002|01|001,0</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#tanatorio">
+					<SimpleData name="fase">2022</SimpleData>
+					<SimpleData name="clave">TA</SimpleData>
+					<SimpleData name="prov">09</SimpleData>
+					<SimpleData name="mun">124</SimpleData>
+					<SimpleData name="ent">0002</SimpleData>
+					<SimpleData name="poblamient">01</SimpleData>
+					<SimpleData name="orden_tana">001</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.53931501318445,43.0739736726221,0 -3.539305540333411,43.0739925598202,0 -3.5393467084392,43.0740057126086,0 -3.53931028160176,43.0740854417383,0 -3.5392601869994,43.0740720692998,0 -3.5391323984936,43.0743176246139,0 -3.53901760003469,43.0742532632662,0 -3.53902408800599,43.0741789092984,0 -3.53905132648904,43.074028302261,0 -3.539175807606779,43.0740570264654,0 -3.53921559776641,43.0739537283366,0 -3.53931501318445,43.0739736726221,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<description>2022|TA|09|056|0001|01|001,0</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#tanatorio">
+					<SimpleData name="fase">2022</SimpleData>
+					<SimpleData name="clave">TA</SimpleData>
+					<SimpleData name="prov">09</SimpleData>
+					<SimpleData name="mun">056</SimpleData>
+					<SimpleData name="ent">0001</SimpleData>
+					<SimpleData name="poblamient">01</SimpleData>
+					<SimpleData name="orden_tana">001</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-3.32631642873755,42.5463944733204,0 -3.326295383355399,42.5466472833338,0 -3.32605967824408,42.5466272854591,0 -3.32606368347847,42.546478459114,0 -3.3258973871753,42.5464626646004,0 -3.32589634800402,42.5463956688101,0 -3.32631642873755,42.5463944733204,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
